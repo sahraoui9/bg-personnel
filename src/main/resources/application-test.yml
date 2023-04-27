@@ -1,0 +1,29 @@
+# config file for test with h2 database
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  mail:
+    host: "sandbox.smtp.mailtrap.io"
+    port: 2525
+    user: "0c7801da10f971"
+    password: "7f795d850740f9"
+    # App Properties
+appConfig:
+  app:
+    jwtSecret: bgPersonnelSecretKey
+    jwtExpirationMs: 6000000
+    jwtRefreshExpirationMs: 12000000
+  openapi:
+    dev-url: http://localhost:8080
+    prod-url: http://localhost:8080

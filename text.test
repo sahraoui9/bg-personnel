@@ -1,0 +1,156 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< bg-personnel:budget >-------------------------
+[INFO] Building budget 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ budget ---
+[INFO] Copying 3 resources from src\main\resources to target\classes
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ budget ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:testResources (default-testResources) @ budget ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ budget ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ budget ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running bgpersonnel.budget.authentification.mangeruser.UserUpdateServiceImplTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.386 s - in bgpersonnel.budget.authentification.mangeruser.UserUpdateServiceImplTest
+[INFO] Running bgpersonnel.budget.authentification.refreshtoken.RefreshTokenServiceTest
+10:08:51.796 [main] DEBUG org.springframework.test.util.ReflectionTestUtils -- Setting field 'refreshTokenDurationMs' of type [null] on target object [bgpersonnel.budget.authentification.refreshtoken.RefreshTokenService@4eb30d44] or target class [class bgpersonnel.budget.authentification.refreshtoken.RefreshTokenService] to value [60000]
+10:08:51.805 [main] DEBUG org.springframework.test.util.ReflectionTestUtils -- Setting field 'refreshTokenDurationMs' of type [null] on target object [bgpersonnel.budget.authentification.refreshtoken.RefreshTokenService@7f8633ae] or target class [class bgpersonnel.budget.authentification.refreshtoken.RefreshTokenService] to value [60000]
+10:08:51.819 [main] DEBUG org.springframework.test.util.ReflectionTestUtils -- Setting field 'refreshTokenDurationMs' of type [null] on target object [bgpersonnel.budget.authentification.refreshtoken.RefreshTokenService@692fd26] or target class [class bgpersonnel.budget.authentification.refreshtoken.RefreshTokenService] to value [60000]
+10:08:51.823 [main] DEBUG org.springframework.test.util.ReflectionTestUtils -- Setting field 'refreshTokenDurationMs' of type [null] on target object [bgpersonnel.budget.authentification.refreshtoken.RefreshTokenService@3900fa71] or target class [class bgpersonnel.budget.authentification.refreshtoken.RefreshTokenService] to value [60000]
+10:08:51.829 [main] DEBUG org.springframework.test.util.ReflectionTestUtils -- Setting field 'refreshTokenDurationMs' of type [null] on target object [bgpersonnel.budget.authentification.refreshtoken.RefreshTokenService@61e3cf4d] or target class [class bgpersonnel.budget.authentification.refreshtoken.RefreshTokenService] to value [60000]
+10:08:51.833 [main] DEBUG org.springframework.test.util.ReflectionTestUtils -- Setting field 'refreshTokenDurationMs' of type [null] on target object [bgpersonnel.budget.authentification.refreshtoken.RefreshTokenService@3157e4c0] or target class [class bgpersonnel.budget.authentification.refreshtoken.RefreshTokenService] to value [60000]
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.385 s - in bgpersonnel.budget.authentification.refreshtoken.RefreshTokenServiceTest
+[INFO] Running bgpersonnel.budget.authentification.signin.SigninServiceTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.107 s - in bgpersonnel.budget.authentification.signin.SigninServiceTest
+[INFO] Running bgpersonnel.budget.authentification.signup.SignupServiceTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 s - in bgpersonnel.budget.authentification.signup.SignupServiceTest
+[INFO] Running bgpersonnel.budget.BudgetApplicationTests
+10:08:52.232 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Neither @ContextConfiguration nor @ContextHierarchy found for test class [BudgetApplicationTests]: using SpringBootContextLoader
+10:08:52.235 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader -- Could not detect default resource locations for test class [bgpersonnel.budget.BudgetApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+10:08:52.236 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [bgpersonnel.budget.BudgetApplicationTests]: BudgetApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:08:52.273 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using ContextCustomizers for test class [BudgetApplicationTests]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+10:08:52.382 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider -- Identified candidate component class: file [C:\Users\lhcen\Documents\java-my-project\bg-personnel\target\classes\bgpersonnel\budget\BudgetApplication.class]
+10:08:52.392 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration bgpersonnel.budget.BudgetApplication for test class bgpersonnel.budget.BudgetApplicationTests
+10:08:52.555 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using TestExecutionListeners for test class [BudgetApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, WithSecurityContextTestExecutionListener, ReactorContextTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+10:08:52.556 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener -- Before test class: class [BudgetApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.6)
+
+2023-04-28T10:08:53.148+02:00  INFO 21532 --- [           main] b.budget.BudgetApplicationTests          : Starting BudgetApplicationTests using Java 19.0.2 with PID 21532 (started by lhcen in C:\Users\lhcen\Documents\java-my-project\bg-personnel)
+2023-04-28T10:08:53.151+02:00  INFO 21532 --- [           main] b.budget.BudgetApplicationTests          : The following 1 profile is active: "test"
+2023-04-28T10:08:55.663+02:00  INFO 21532 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-28T10:08:55.843+02:00  INFO 21532 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 155 ms. Found 7 JPA repository interfaces.
+2023-04-28T10:08:57.116+02:00  INFO 21532 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-28T10:08:57.235+02:00  INFO 21532 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-28T10:08:57.608+02:00  INFO 21532 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-28T10:08:58.265+02:00  INFO 21532 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-04-28T10:08:58.270+02:00  INFO 21532 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-28T10:08:58.354+02:00  INFO 21532 --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: drop table if exists budget cascade 
+Hibernate: drop table if exists category cascade 
+Hibernate: drop table if exists objectif cascade 
+Hibernate: drop table if exists refresh_token cascade 
+Hibernate: drop table if exists roles cascade 
+Hibernate: drop table if exists transaction cascade 
+Hibernate: drop table if exists user_roles cascade 
+Hibernate: drop table if exists users cascade 
+Hibernate: drop sequence if exists category_seq
+Hibernate: drop sequence if exists objectif_seq
+Hibernate: drop sequence if exists refresh_token_seq
+Hibernate: drop sequence if exists transaction_seq
+Hibernate: create sequence category_seq start with 1 increment by 50
+Hibernate: create sequence objectif_seq start with 1 increment by 50
+Hibernate: create sequence refresh_token_seq start with 1 increment by 50
+Hibernate: create sequence transaction_seq start with 1 increment by 50
+Hibernate: create table budget (id bigint generated by default as identity, created_at timestamp(6), created_by varchar(255), updated_at timestamp(6), updated_by varchar(255), description varchar(255), is_essential boolean not null, is_global boolean not null, max_amount float(53), name varchar(255), type varchar(255), category_id bigint, user_id bigint not null, primary key (id))
+Hibernate: create table category (id bigint not null, created_at timestamp(6), created_by varchar(255), updated_at timestamp(6), updated_by varchar(255), name varchar(255), user_id bigint, primary key (id))
+Hibernate: create table objectif (id bigint not null, created_at timestamp(6), created_by varchar(255), updated_at timestamp(6), updated_by varchar(255), amount float(53) not null, description varchar(255), is_reached boolean not null, name varchar(255), term timestamp(6), user_id bigint not null, primary key (id))
+Hibernate: create table refresh_token (id bigint not null, expiry_date timestamp(6) with time zone not null, token varchar(255) not null, user_id bigint, primary key (id))
+Hibernate: create table roles (id integer generated by default as identity, name varchar(20), primary key (id))
+Hibernate: create table transaction (id bigint not null, created_at timestamp(6), created_by varchar(255), updated_at timestamp(6), updated_by varchar(255), amount float(53) not null, date_transaction date, description varchar(255), type_transaction smallint, category_id bigint, transaction_id bigint, user_id bigint not null, primary key (id))
+Hibernate: create table user_roles (user_id bigint not null, role_id integer not null, primary key (user_id, role_id))
+Hibernate: create table users (id bigint generated by default as identity, email varchar(50), name varchar(50), password varchar(120), primary key (id))
+Hibernate: alter table if exists refresh_token add constraint UK_r4k4edos30bx9neoq81mdvwph unique (token)
+Hibernate: alter table if exists users add constraint UK6dotkott2kjsp8vw4d0m25fb7 unique (email)
+Hibernate: alter table if exists budget add constraint FKrme3v2iww4j9qkxv4f93vv4mt foreign key (category_id) references category
+Hibernate: alter table if exists budget add constraint FK5hquwcop4uwka537brlrxifl3 foreign key (user_id) references users
+Hibernate: alter table if exists category add constraint FK7ffrpnxaflomhdh0qfk2jcndo foreign key (user_id) references users
+Hibernate: alter table if exists objectif add constraint FKkfuxu6bqpy3qocs6yc7ekeak5 foreign key (user_id) references users
+Hibernate: alter table if exists refresh_token add constraint FKjtx87i0jvq2svedphegvdwcuy foreign key (user_id) references users
+Hibernate: alter table if exists transaction add constraint FKgik7ruym8r1n4xngrclc6kiih foreign key (category_id) references category
+Hibernate: alter table if exists transaction add constraint FKgvy50b78jve03n84rwn302o6n foreign key (transaction_id) references objectif
+Hibernate: alter table if exists transaction add constraint FKanjpo5tiapru7an6cw4cu37y4 foreign key (user_id) references users
+Hibernate: alter table if exists user_roles add constraint FKh8ciramu9cc9q3qcqiv4ue8a6 foreign key (role_id) references roles
+Hibernate: alter table if exists user_roles add constraint FKhfh9dx7w3ubf1co1vdev94g3f foreign key (user_id) references users
+2023-04-28T10:09:00.439+02:00  INFO 21532 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-28T10:09:00.491+02:00  INFO 21532 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28T10:09:05.031+02:00  WARN 21532 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-28T10:09:08.274+02:00  INFO 21532 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3f3953c3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@633f8efd, org.springframework.security.web.context.SecurityContextHolderFilter@2b831846, org.springframework.security.web.header.HeaderWriterFilter@3ed50b5f, org.springframework.web.filter.CorsFilter@539fe2b8, org.springframework.security.web.authentication.logout.LogoutFilter@bb832f0, bgpersonnel.budget.authentification.security.AuthTokenFilter@56dde963, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c532e54, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@17163282, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@30012b46, org.springframework.security.web.session.SessionManagementFilter@6d1aa79c, org.springframework.security.web.access.ExceptionTranslationFilter@4e751350, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@39660d2]
+2023-04-28T10:09:09.680+02:00  INFO 21532 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-04-28T10:09:09.886+02:00  INFO 21532 --- [           main] b.budget.BudgetApplicationTests          : Started BudgetApplicationTests in 17.287 seconds (process running for 20.638)
+Hibernate: insert into roles (id, name) values (default, ?)
+Hibernate: insert into roles (id, name) values (default, ?)
+Hibernate: insert into roles (id, name) values (default, ?)
+Hibernate: insert into users (id, email, name, password) values (default, ?, ?, ?)
+Hibernate: select next value for category_seq
+Hibernate: select next value for category_seq
+Hibernate: select next value for transaction_seq
+Hibernate: select next value for transaction_seq
+Hibernate: insert into category (created_at, created_by, name, updated_at, updated_by, user_id, id) values (?, ?, ?, ?, ?, ?, ?)
+Hibernate: insert into category (created_at, created_by, name, updated_at, updated_by, user_id, id) values (?, ?, ?, ?, ?, ?, ?)
+Hibernate: insert into transaction (amount, category_id, created_at, created_by, date_transaction, description, transaction_id, type_transaction, updated_at, updated_by, user_id, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: insert into transaction (amount, category_id, created_at, created_by, date_transaction, description, transaction_id, type_transaction, updated_at, updated_by, user_id, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: insert into transaction (amount, category_id, created_at, created_by, date_transaction, description, transaction_id, type_transaction, updated_at, updated_by, user_id, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: insert into user_roles (user_id, role_id) values (?, ?)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.622 s - in bgpersonnel.budget.BudgetApplicationTests
+[INFO] Running bgpersonnel.budget.reporting.ReportingServiceImplTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.695 s - in bgpersonnel.budget.reporting.ReportingServiceImplTest
+[INFO] Running bgpersonnel.budget.transaction.TransactionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.395 s - in bgpersonnel.budget.transaction.TransactionTest
+2023-04-28T10:09:11.864+02:00  INFO 21532 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28T10:09:11.866+02:00  INFO 21532 --- [ionShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+Hibernate: drop table if exists budget cascade 
+Hibernate: drop table if exists category cascade 
+Hibernate: drop table if exists objectif cascade 
+Hibernate: drop table if exists refresh_token cascade 
+Hibernate: drop table if exists roles cascade 
+Hibernate: drop table if exists transaction cascade 
+Hibernate: drop table if exists user_roles cascade 
+Hibernate: drop table if exists users cascade 
+Hibernate: drop sequence if exists category_seq
+Hibernate: drop sequence if exists objectif_seq
+Hibernate: drop sequence if exists refresh_token_seq
+Hibernate: drop sequence if exists transaction_seq
+2023-04-28T10:09:11.901+02:00  INFO 21532 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-28T10:09:11.912+02:00  INFO 21532 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (surefire-it) @ budget ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  26.224 s
+[INFO] Finished at: 2023-04-28T10:09:12+02:00
+[INFO] ------------------------------------------------------------------------

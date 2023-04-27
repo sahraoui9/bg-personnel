@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/db_budget_personnel
+    username: postgres
+    password: 123456
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  mail:
+    host: "sandbox.smtp.mailtrap.io"
+    port: 2525
+    user: "0c7801da10f971"
+    password: "7f795d850740f9"
+
+# App Properties
+appConfig:
+  app:
+    jwtSecret: bgPersonnelSecretKey
+    jwtExpirationMs: 6000000
+    jwtRefreshExpirationMs: 12000000
+  openapi:
+    dev-url: http://localhost:8080
+    prod-url: http://localhost:8080
